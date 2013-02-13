@@ -15,7 +15,7 @@ env:
   DJANGO_SETTINGS_MODULE: solitude.settings
   PIP_OPTS: --no-deps --exists-action=w
   PIP_REQUIREMENTS_FILE: requirements/python27_prod.txt
-  PYTHONPATH: "/app/app:/app/src/nuggets:/app/src/test-utils"
+
 requirements:
   pypm:
     - M2Crypto==0.21.1
